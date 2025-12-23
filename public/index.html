@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>得点記録アプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏓 得点記録</h1>
+
+  <input type="date" id="date">
+
+  <div class="add">
+    <input id="name" placeholder="名前">
+    <button onclick="addPerson()">追加</button>
+  </div>
+
+  <div id="list"></div>
+
+  <button class="csv" onclick="exportCSV()">CSV出力</button>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
