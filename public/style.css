@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.add input {
+  padding: 5px;
+}
+
+.card {
+  background: white;
+  margin: 10px auto;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.csv {
+  background: #4caf50;
+  color: white;
+}
